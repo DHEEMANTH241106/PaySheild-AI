@@ -1,6 +1,6 @@
 # PayShield AI
 
-PayShield AI is a functional Android prototype for checking suspicious messages, assessing transaction context, matching payment claims to **simulated** records, and creating merchant requests. It is not connected to a bank, UPI network, or payment provider.
+PayShield AI is a digital payment protection prototype for detecting suspicious messages, assessing transaction context, identifying questionable payment claims, and supporting merchants with payment checks. The Android app and web demo use simulated payment records and are not connected to a bank, UPI network, or payment provider.
 
 ## Project layout
 
