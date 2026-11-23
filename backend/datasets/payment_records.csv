@@ -1,0 +1,5 @@
+reference,order_id,amount,receiver_upi,status
+PSH-DEMO-1001,DEMO-ORDER-1001,1250.00,cornerstore@upi,success
+PSH-DEMO-1002,DEMO-ORDER-1002,499.00,cornerstore@upi,pending
+PSH-DEMO-1003,DEMO-ORDER-1003,2200.00,cornerstore@upi,failed
+PSH-DEMO-2001,,850.00,market@upi,success

@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "PayShield AI",
+    "slug": "payshield-ai",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "scheme": "payshield",
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Allow PayShield AI to read a payment screenshot you choose for checking.",
+          "cameraPermission": "Allow PayShield AI to take a payment screenshot for checking.",
+          "microphonePermission": false
+        }
+      ],
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "usesCleartextTraffic": true
+          }
+        }
+      ],
+      "expo-sharing"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.payshieldai.mobile",
+      "permissions": [
+        "CAMERA",
+        "READ_MEDIA_IMAGES"
+      ],
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      }
+    }
+  }
+}

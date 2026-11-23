@@ -1,0 +1,8 @@
+sender_id,receiver_upi,amount,average_amount,recent_transactions,is_receiver_new,unusual_time,receiver_previous_count,device_anomaly,receiver_verified,label
+customer-01,grocery@upi,650,700,2,0,0,15,0,1,0
+student-02,college@upi,100000,1200,1,1,0,0,0,1,0
+customer-03,newfriend@upi,850,900,1,1,0,0,0,0,0
+customer-04,merchant@upi,300,450,8,0,0,20,0,1,0
+customer-05,unknown@upi,15000,600,9,1,1,0,1,0,1
+customer-06,verified@upi,2500,1000,1,0,0,12,0,1,0
+customer-07,unknown2@upi,22000,800,10,1,1,0,1,0,1
